@@ -4,8 +4,13 @@
   "description": "- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.\r Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\r Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. \r ---",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "jest./test",
     "lint": "npx eslint --fix ./testes-unitarios/index.js",
+=======
+    "test": "jest ./src/test/api.test.js",
+    "lint": "npx eslint --fix ./testes-unitarios",
+>>>>>>> 11734294bd41ce13c6ae1f0f67f44c650f2277d5
     "start": "nodemon server.js"
   },
   "keywords": [],
